@@ -32,3 +32,16 @@ function vo(ch2) {
 }
 console.log(vo(ch2));
 
+//COUNT A PARTICULAR CHARCTER
+let word = "bananaaa"
+let find = 'a'
+let coun = 0
+function func(word) {
+    for (let i = 0; i < word.length; i++) {
+        if (word[i] === find) {
+            coun++
+        }
+    }
+    return coun
+}
+console.log(func(word));
