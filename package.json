@@ -1,0 +1,20 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Aswathi-Manikandan/JS-CODING-MASTERY#readme",
+  "bugs": {
+    "url": "https://github.com/Aswathi-Manikandan/JS-CODING-MASTERY/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aswathi-Manikandan/JS-CODING-MASTERY.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "string reverse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
