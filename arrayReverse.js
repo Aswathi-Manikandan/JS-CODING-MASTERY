@@ -13,3 +13,21 @@ function func1(arr1) {
     return out
 }
 console.log(func1(arr1));
+
+
+let arr2 = [12, 34, 56];
+
+function func2(arr2) {
+    let ar = [];
+
+    for (let i = 0; i < arr2.length; i++) {
+        let res = Number(String(arr2[i]).split('').reverse().join(''));
+        ar.push(res);
+    }
+
+    return ar;
+}
+
+console.log(func2(arr2));
+
+
