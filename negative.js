@@ -16,7 +16,3 @@ let out = arr3.filter((x) => x < 0)
 console.log(out);
 
 
-let arr4 = [100, -200, -300, 400]
-let out2 = arr4.forEach((x) => console.log(x < 0));
- )
-

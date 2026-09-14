@@ -17,3 +17,4 @@ function func(pali1) {
 
 
 console.log(func(pali1));
+
