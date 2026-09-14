@@ -12,9 +12,15 @@ function func(arr) {
         if (count < 2) {
             arq.push(arr[i])
         }
-
     }
     return arq
 
 }
 console.log(func(arr));
+
+
+let arr2 = [1, 2, 2, 4, 5, 7, 8];
+
+let result = [...new Set(arr2)];
+
+console.log(result);
