@@ -28,9 +28,11 @@ console.log({} == {});
 //↓
 //false
 
-console.log([] != []);
-console.log({} != {});
+console.log([] != []); //true
+console.log({} != {}); //true
 
-console.log([] == {});
-console.log([] != {});
+console.log([] == {}); //false
+console.log([] != {}); //true
+
+console.log("hello" - "world"); //Nan
 
