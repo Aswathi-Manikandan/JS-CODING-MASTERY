@@ -18,5 +18,19 @@ console.log(null === undefined);
 //NaN is a type of number , NaN means Not-a-Number. It represents a value that resulted from an invalid mathematical operation
 
 console.log([] + []); // when we actually add both empty arrays it become an empty string so it will be blank
-console.log({} + {});
+console.log({} + {}); //The + operator tries to convert objects to primitive values. {} → "[object Object]" {} → "[object Object]"
+
+console.log([] == []); //different array === different array ↓ false
+console.log({} == {});
+//Object A == Object B
+// ↓
+//Different objects
+//↓
+//false
+
+console.log([] != []);
+console.log({} != {});
+
+console.log([] == {});
+console.log([] != {});
 
