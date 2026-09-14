@@ -9,3 +9,14 @@ console.log(y == z);//true
 console.log(x === y)
 console.log(x === z)
 console.log(y === z)
+
+console.log(null == undefined);
+console.log(null === undefined);
+
+// null is a type og object 
+// undefined is a type of undefined 
+//NaN is a type of number , NaN means Not-a-Number. It represents a value that resulted from an invalid mathematical operation
+
+console.log([] + []); // when we actually add both empty arrays it become an empty string so it will be blank
+console.log({} + {});
+
