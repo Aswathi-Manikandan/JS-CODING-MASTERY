@@ -1,3 +1,4 @@
+
 let arr = [8, 0, 4, 9, 5, 1]
 function func(arr) {
     for (let i = 0; i < arr.length; i++) {
