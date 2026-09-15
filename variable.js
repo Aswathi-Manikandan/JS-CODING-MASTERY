@@ -36,3 +36,7 @@ console.log([] != {}); //true
 
 console.log("hello" - "world"); //Nan
 
+let a = "hello"
+let b = new String("hello")
+console.log(a == b)
+console.log(a === b); //false : its a object
