@@ -1,0 +1,2 @@
+// variable decleration
+// redecleration
