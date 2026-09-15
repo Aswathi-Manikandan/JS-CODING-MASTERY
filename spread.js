@@ -1,0 +1,5 @@
+let a = [1, 2, 3, 4]
+a[11] = 100
+console.log(a.length);
+console.log(a);
+
