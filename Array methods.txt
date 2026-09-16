@@ -1,0 +1,71 @@
+Sure 👍 You want **only the array method name + simple definition**, from basic to advanced, without examples.
+
+# JavaScript Array Methods — Basic → Advanced
+
+### 🟢 Basic
+
+1. **`push()`** — Adds element(s) to the end.
+2. **`pop()`** — Removes the last element.
+3. **`unshift()`** — Adds element(s) to the beginning.
+4. **`shift()`** — Removes the first element.
+5. **`at()`** — Gets an element using its index.
+6. **`length`** — Gives the number of elements in an array.
+
+### 🟢 Searching
+
+7. **`indexOf()`** — Finds the first index of a value.
+8. **`lastIndexOf()`** — Finds the last index of a value.
+9. **`includes()`** — Checks whether a value exists.
+10. **`find()`** — Returns the first element that matches a condition.
+11. **`findIndex()`** — Returns the index of the first matching element.
+12. **`findLast()`** — Returns the last matching element.
+13. **`findLastIndex()`** — Returns the index of the last matching element.
+
+### 🟡 Iteration & Transformation
+
+14. **`forEach()`** — Executes a function for every element.
+15. **`map()`** — Creates a new array by transforming every element.
+16. **`filter()`** — Creates a new array containing matching elements.
+17. **`reduce()`** — Reduces an array to a single value.
+18. **`reduceRight()`** — Reduces an array from right to left.
+19. **`flat()`** — Flattens nested arrays.
+20. **`flatMap()`** — Maps elements and then flattens the result.
+
+### 🟡 Checking
+
+21. **`some()`** — Checks whether at least one element satisfies a condition.
+22. **`every()`** — Checks whether all elements satisfy a condition.
+
+### 🟠 Adding, Removing & Copying
+
+23. **`slice()`** — Copies a portion of an array without changing the original.
+24. **`splice()`** — Adds, removes, or replaces elements in the original array.
+25. **`concat()`** — Combines arrays or values into a new array.
+
+### 🟠 Sorting & Reversing
+
+26. **`sort()`** — Sorts the elements.
+27. **`reverse()`** — Reverses the array.
+28. **`toSorted()`** — Returns a sorted copy without changing the original.
+29. **`toReversed()`** — Returns a reversed copy without changing the original.
+
+### 🔵 Converting
+
+30. **`join()`** — Converts array elements into a string.
+31. **`toString()`** — Converts the array into a string.
+32. **`toLocaleString()`** — Converts elements into a locale-sensitive string.
+
+### 🔵 Creating Arrays
+
+33. **`Array.isArray()`** — Checks whether a value is an array.
+34. **`Array.from()`** — Creates an array from an iterable or array-like value.
+35. **`Array.of()`** — Creates an array from given values.
+36. **`Array.fromAsync()`** — Creates an array from an async iterable or array-like value.
+
+### 🔴 Advanced
+
+37. **`fill()`** — Replaces elements with a specified value.
+38. **`copyWithin()`** — Copies elements within the same array.
+39. **`toSpliced()`** — Returns a modified copy without changing the original.
+40. **`with()`** — Returns a copy with one element replaced.
+
