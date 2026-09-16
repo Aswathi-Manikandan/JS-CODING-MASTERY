@@ -1,5 +1,3 @@
-let a = "hello"
-let b = new String("hello")
-console.log(a == b)
-console.log(a === b);
-;
+console.log("hello", "world");
+console.log("100" - "10");
+console.log("100" + "10");
