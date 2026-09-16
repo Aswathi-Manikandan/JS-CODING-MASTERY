@@ -1,0 +1,59 @@
+## JavaScript String Methods — Basic to Advanced
+
+### 🔹 Basic
+
+1. `length` — Returns the number of characters.
+2. `charAt()` — Returns the character at a specified index.
+3. `charCodeAt()` — Returns the Unicode value of a character.
+4. `at()` — Returns the character at a specified index.
+
+### 🔹 Searching
+
+5. `indexOf()` — Finds the first position of a value.
+6. `lastIndexOf()` — Finds the last position of a value.
+7. `includes()` — Checks whether a value exists.
+8. `startsWith()` — Checks whether a string starts with a value.
+9. `endsWith()` — Checks whether a string ends with a value.
+10. `search()` — Searches for a match using a regular expression.
+
+### 🔹 Extracting
+
+11. `slice()` — Extracts part of a string.
+12. `substring()` — Extracts characters between two indexes.
+13. `substr()` — Extracts a specified number of characters. **(Deprecated)**
+
+### 🔹 Changing Case
+
+14. `toUpperCase()` — Converts the string to uppercase.
+15. `toLowerCase()` — Converts the string to lowercase.
+16. `toLocaleUpperCase()` — Converts to locale-specific uppercase.
+17. `toLocaleLowerCase()` — Converts to locale-specific lowercase.
+
+### 🔹 Modifying / Cleaning
+
+18. `trim()` — Removes spaces from both ends.
+19. `trimStart()` — Removes spaces from the beginning.
+20. `trimEnd()` — Removes spaces from the end.
+21. `replace()` — Replaces the first matching value.
+22. `replaceAll()` — Replaces all matching values.
+23. `repeat()` — Repeats a string a specified number of times.
+
+### 🔹 Splitting & Combining
+
+24. `split()` — Splits a string into an array.
+25. `concat()` — Combines strings.
+
+### 🔹 Padding
+
+26. `padStart()` — Adds characters to the beginning.
+27. `padEnd()` — Adds characters to the end.
+
+### 🔹 Advanced
+
+28. `match()` — Finds matches using a regular expression.
+29. `matchAll()` — Finds all matches using a regular expression.
+30. `localeCompare()` — Compares two strings according to language rules.
+31. `normalize()` — Normalizes Unicode text.
+32. `isWellFormed()` — Checks whether the string contains well-formed Unicode.
+33. `toWellFormed()` — Converts ill-formed Unicode into well-formed text.
+
