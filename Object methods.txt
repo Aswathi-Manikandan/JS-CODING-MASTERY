@@ -1,0 +1,45 @@
+## JavaScript Object Methods — Basic to Advanced
+
+### 🔹 Basic
+
+1. `Object.keys()` — Returns an array of an object's keys.
+2. `Object.values()` — Returns an array of an object's values.
+3. `Object.entries()` — Returns an array of key-value pairs.
+
+### 🔹 Creating & Copying
+
+4. `Object.assign()` — Copies properties from one or more objects into another object.
+5. `Object.create()` — Creates a new object with a specified prototype.
+6. `Object.fromEntries()` — Creates an object from key-value pairs.
+
+### 🔹 Checking
+
+7. `Object.hasOwn()` — Checks whether an object directly contains a property.
+8. `hasOwnProperty()` — Checks whether an object directly contains a property.
+9. `propertyIsEnumerable()` — Checks whether a property is enumerable.
+
+### 🔹 Object Properties
+
+10. `Object.getOwnPropertyNames()` — Returns an object's own property names.
+11. `Object.getOwnPropertySymbols()` — Returns an object's own Symbol properties.
+12. `Object.getOwnPropertyDescriptor()` — Returns information about a property.
+13. `Object.getOwnPropertyDescriptors()` — Returns information about all own properties.
+
+### 🔹 Object Modification / Control
+
+14. `Object.freeze()` — Prevents an object from being changed.
+15. `Object.seal()` — Prevents adding or deleting properties.
+16. `Object.preventExtensions()` — Prevents adding new properties.
+17. `Object.isFrozen()` — Checks whether an object is frozen.
+18. `Object.isSealed()` — Checks whether an object is sealed.
+19. `Object.isExtensible()` — Checks whether new properties can be added.
+
+### 🔹 Comparison
+
+20. `Object.is()` — Compares two values using a more precise equality check.
+
+### 🔹 Prototype
+
+21. `Object.getPrototypeOf()` — Returns an object's prototype.
+22. `Object.setPrototypeOf()` — Changes an object's prototype.
+
