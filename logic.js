@@ -53,6 +53,9 @@ let w = 20;
 [a, w] = [w, a]
 console.log(a);//20
 console.log(w);//10
+console.log(isNaN("hello"));//true
+console.log(isNaN(10));//true
+
 
 
 
