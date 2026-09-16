@@ -36,6 +36,25 @@ function xyz() {
 let b = xyz()
 console.log(b);
 
+function func() {
+    return;
+    xyz = 100
+}
+console.log(func()); //undefined
+
+
+console.log("hello", "world");//hello world
+console.log("100" - "10");//90
+console.log("100" + "10");//10010
+console.log("aswathi" - "manikandan");//NaN
+
+let a = 10
+let w = 20;
+[a, w] = [w, a]
+console.log(a);//20
+console.log(w);//10
+
+
 
 
 
