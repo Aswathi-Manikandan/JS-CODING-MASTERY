@@ -1,6 +1,3 @@
-## JavaScript String Methods — Basic to Advanced
-
-### 🔹 Basic
 
 1. `length` — Returns the number of characters.
 2. `charAt()` — Returns the character at a specified index.

@@ -1,8 +1,3 @@
-Sure 👍 You want **only the array method name + simple definition**, from basic to advanced, without examples.
-
-# JavaScript Array Methods — Basic → Advanced
-
-### 🟢 Basic
 
 1. **`push()`** — Adds element(s) to the end.
 2. **`pop()`** — Removes the last element.
