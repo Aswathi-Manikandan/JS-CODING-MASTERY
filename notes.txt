@@ -1,2 +1,27 @@
 useStrict
 scope
+Difference of map and foreach 
+tdz
+closure
+hoisting
+Lexical 
+environment
+Different ways to create objects
+callback hell
+Local and session storage
+any methods to check two array is equal or not (not use == and ===)
+Difference between then, catch,a and async
+Why await is used
+Arrays can be written in 'const' but we can change  the elements in that array and why . because we learned const cannnot be changed
+Difference between let var const
+Non primitive - Reference
+Event loop - Clearly Explain 
+Promise
+Types of loops
+Map, Filte,Reduce
+Types of errors
+JSON
+Function exp, func statement, func types
+Where we can use normal func and arrow func
+
+
