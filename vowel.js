@@ -7,4 +7,4 @@ for (let i = 0; i < str.length; i++) {
     }
 }
 
-console.log(vowels);
+console.log(vowels); 66

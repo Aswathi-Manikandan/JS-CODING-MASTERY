@@ -1,12 +1,8 @@
-let str = "henah"
-function rep(str) {
-    let out = str.split('')
-    for (let i = 0; i < out.length; i++) {
-        for (let j = i + 1; j < out.length; j++) {
-            if (out[i] === out[j]) {
-                return out[i]
-            }
-        }
-    }
+function test() {
+    console.log(test.abc);
+
 }
-console.log(rep(str));
+test()
+test.abc = 400
+test.abc = 600
+test()

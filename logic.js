@@ -56,6 +56,15 @@ console.log(w);//10
 console.log(isNaN("hello"));//true
 console.log(isNaN(10));//true
 
+const name = "aswathi"
+console.log(name());//TypeError: name is not a function
+
+let arr = [[1, 2, 3, 4], [5, 6, 7, 8]]
+let arr1 = [, , , ,]
+console.log(arr.length);//2
+console.log(arr1.length);//4
+
+
 
 
 
