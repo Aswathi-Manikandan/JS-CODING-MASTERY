@@ -1,8 +1,8 @@
-function test() {
-    console.log(test.abc);
-
+let a = {
+    name: "hello"
 }
-test()
-test.abc = 400
-test.abc = 600
-test()
+let b = {
+    ...a
+}
+b.name = "world"
+console.log(a.name);
