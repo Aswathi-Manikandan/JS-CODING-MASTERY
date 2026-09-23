@@ -33,3 +33,19 @@ console.log(str); //hey
 // str → "hey"
 
 // The string "hello" itself was not changed. A new string "hey" was assigned to str.
+
+
+a = 100
+console.log(a);//100
+
+function test() {
+    console.log(test.abc);
+
+}
+test()//undefined
+test.abc = 400
+test.abc = 600
+test()//600
+//Functions are objects → they can have properties.
+// test.abc = 400 → adds property
+// test.abc = 600 → updates property

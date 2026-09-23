@@ -1,0 +1,32 @@
+EXECUTION CONTEXT :     Everything happens in js inside an execution context. It has two components 
+the first one is a Memory Component (variable environment), where all the variables and functions as 
+stored as a key value pairs (a:10) , similarly functions. The second component is called code component,
+where the code is executed line by line. this is also known as thread of execution.
+
+JAVASCRIPT IS A SYNCHRONOUS (In a specific order, it can go to the next line only after the current line
+finished executing) SINGLE THREADED LANGUAGE (executed one line at a time).
+
+-------------------------------------------------------------------------------------------------------------
+var n = 2
+function square(num){
+    var ans = num*num
+    return ans
+}
+var square2 = square(n)
+var square4 = square(4)
+
+=>: When you run a js code an execution context is created
+
+Step 1 : memory phase
+    n:undefined
+    square:{
+        //whole code
+    }
+    square2: undefined
+    square4: undefined
+
+Step 2  : Code phase
+    n:2
+    //the next is a function decleration so nothing to do there , so it will go to next Step`
+    square2: A brand new execution is created.
+    memory :                    code: 
