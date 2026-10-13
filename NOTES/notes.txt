@@ -31,6 +31,10 @@ how o create a json file in javascript
 ES6 Features
 Strictmode with example (how to determine bad syntax)
 Learn scope very clearly wih different examples
+polifill
+Event Propogation phases
+Event Targetting
+
 
 
 

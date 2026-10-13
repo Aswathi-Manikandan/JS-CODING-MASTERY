@@ -23,3 +23,15 @@ console.log(a);
 // var inside a function is accessible only inside that function.
 
 // This is called function scope.
+
+let a = 10
+console.log(a * 12);//120
+console.log(a ** 12);//1000000000000
+
+
+function func() {
+    salary = 200000
+    console.log(salary);//200000 -JavaScript creates salary as a global variable:
+
+}
+func()
