@@ -45,3 +45,48 @@ console.log(out5);
 let arr6 = [1, 2, 3, 8, 6, 4]
 let out6 = arr6.map((parity) => (parity % 2 === 0) ? 'even' : 'odd')
 console.log(out6);
+
+//7.Convert every negative number into its positive equivalent
+let data3 = [-5, 10, -15, 20, -25];
+
+let result = data3.map((x) => {
+    return Math.abs(x);
+});
+
+console.log(result);
+
+//8.Replace every zero with 100
+let number8 = [0, 1, 0, 3, 0, 5, 0]
+let out8 = number8.map((x) => {
+    if (x === 0) {
+        x = 100
+    }
+    return x
+})
+console.log(out8);
+
+//9.Square even numbers and cube odd numbers
+let values6 = [2, 3, 4, 5, 6];
+let out9 = values6.map((x) => {
+    return (x % 2 === 0) ? x * x : x * x * x
+})
+console.log(out9);
+
+
+//10.Double only positive numbers
+let numbers1 = [2, -4, 5, -7, 8];
+
+let out7 = numbers1.map((x) => {
+    if (x > 0) {
+        return x * 2;
+    }
+    return x;
+});
+
+console.log(out7);
+
+//11.Reverse every string
+let words = ["hello", "world", "javascript"];
+let out11 = words.map((x) => x.split('').reverse().join(''))
+console.log(out11);
+
